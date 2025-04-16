@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  /* 默认设置初始字体大小 */
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-y-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-b-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-y-c-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
