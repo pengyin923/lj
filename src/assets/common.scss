@@ -1,0 +1,25 @@
+@for $i from 1 to 100 {
+    .mrl-#{$i} {
+        margin:0 #{$i}rem;
+    }
+
+    .mr-#{$i} {
+        margin-right:#{$i}rem;
+    }
+
+    .ml-#{$i} {
+        margin-left:#{$i}rem;
+    }
+
+    .mtb-#{$i} {
+        margin:#{$i}rem 0;
+    }
+
+    .prl-#{$i} {
+        padding:0 #{$i}rem;
+    }
+
+    .pr-#{$i} {
+        padding-right:#{$i}rem;
+    }
+}
